@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: 211223789150.dkr.ecr.us-east-1.amazonaws.com/coachak/myrepo
+  repository: jenkinsacr123.azurecr.io/jenkinsacr123
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
